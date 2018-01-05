@@ -57,8 +57,8 @@
 		B98DE39B1F56A24F00B0CB70 /* FDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98DE39A1F56A24F00B0CB70 /* FDBaseViewController.m */; };
 		B9BCCC811FFF172C00C33214 /* PluginSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9BCCC5C1FFF172C00C33214 /* PluginSDKResources.bundle */; };
 		B9BCCCA11FFF515A00C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCCA01FFF515900C33214 /* FineSDK.framework */; };
-		B9BCCCA21FFF517800C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCCA01FFF515900C33214 /* FineSDK.framework */; };
-		B9BCCCA31FFF517800C33214 /* FineSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCCA01FFF515900C33214 /* FineSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B9BCCCA41FFF5F7F00C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCCA01FFF515900C33214 /* FineSDK.framework */; };
+		B9BCCCA51FFF5F7F00C33214 /* FineSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCCA01FFF515900C33214 /* FineSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,13 +79,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B9EB8A0A1F37FBAE003D94B0 /* Embed Frameworks */ = {
+		B9BCCCA61FFF5F7F00C33214 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B9BCCCA31FFF517800C33214 /* FineSDK.framework in Embed Frameworks */,
+				B9BCCCA51FFF5F7F00C33214 /* FineSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +220,7 @@
 				B93522F61F3595EA00A66C17 /* WebKit.framework in Frameworks */,
 				B93522F51F3595E500A66C17 /* libsqlite3.tbd in Frameworks */,
 				B93522F31F3595DE00A66C17 /* libxml2.tbd in Frameworks */,
-				B9BCCCA21FFF517800C33214 /* FineSDK.framework in Frameworks */,
+				B9BCCCA41FFF5F7F00C33214 /* FineSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +436,8 @@
 				B9219D351F1DA2E800B08AFA /* Sources */,
 				B9219D361F1DA2E800B08AFA /* Frameworks */,
 				B9219D371F1DA2E800B08AFA /* Resources */,
-				B9EB8A0A1F37FBAE003D94B0 /* Embed Frameworks */,
 				2553A2361F3BE0FE00B4709B /* ShellScript */,
+				B9BCCCA61FFF5F7F00C33214 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -751,7 +751,6 @@
 		B9219D671F1DA2E800B08AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -804,13 +803,13 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
 		B9219D681F1DA2E800B08AFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -863,6 +862,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
