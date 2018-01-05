@@ -56,9 +56,9 @@
 		B98DE3971F56A17A00B0CB70 /* FDNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98DE3961F56A17A00B0CB70 /* FDNavigationViewController.m */; };
 		B98DE39B1F56A24F00B0CB70 /* FDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98DE39A1F56A24F00B0CB70 /* FDBaseViewController.m */; };
 		B9BCCC811FFF172C00C33214 /* PluginSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9BCCC5C1FFF172C00C33214 /* PluginSDKResources.bundle */; };
-		B9BCCC8E1FFF195800C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC8D1FFF195800C33214 /* FineSDK.framework */; };
-		B9BCCC911FFF19E500C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC8D1FFF195800C33214 /* FineSDK.framework */; };
-		B9BCCC921FFF19E500C33214 /* FineSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC8D1FFF195800C33214 /* FineSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B9BCCCA11FFF515A00C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCCA01FFF515900C33214 /* FineSDK.framework */; };
+		B9BCCCA21FFF517800C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCCA01FFF515900C33214 /* FineSDK.framework */; };
+		B9BCCCA31FFF517800C33214 /* FineSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCCA01FFF515900C33214 /* FineSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +85,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B9BCCC921FFF19E500C33214 /* FineSDK.framework in Embed Frameworks */,
+				B9BCCCA31FFF517800C33214 /* FineSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +191,7 @@
 		B98DE3991F56A24F00B0CB70 /* FDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseViewController.h; sourceTree = "<group>"; };
 		B98DE39A1F56A24F00B0CB70 /* FDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseViewController.m; sourceTree = "<group>"; };
 		B9BCCC5C1FFF172C00C33214 /* PluginSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PluginSDKResources.bundle; sourceTree = "<group>"; };
-		B9BCCC8D1FFF195800C33214 /* FineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FineSDK.framework; sourceTree = "<group>"; };
+		B9BCCCA01FFF515900C33214 /* FineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FineSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,14 +201,13 @@
 			files = (
 				31822C231F504BD5002A7CC0 /* ImageIO.framework in Frameworks */,
 				31822BA01F50252B002A7CC0 /* PassKit.framework in Frameworks */,
+				B9BCCCA11FFF515A00C33214 /* FineSDK.framework in Frameworks */,
 				31822B9E1F502507002A7CC0 /* MapKit.framework in Frameworks */,
 				B93523101F35986F00A66C17 /* AudioToolbox.framework in Frameworks */,
 				B935230F1F35984C00A66C17 /* CoreTelephony.framework in Frameworks */,
 				B93523041F35972700A66C17 /* CoreMedia.framework in Frameworks */,
 				B935230E1F35982400A66C17 /* MediaPlayer.framework in Frameworks */,
-				B9BCCC911FFF19E500C33214 /* FineSDK.framework in Frameworks */,
 				B935230B1F3597FF00A66C17 /* MessageUI.framework in Frameworks */,
-				B9BCCC8E1FFF195800C33214 /* FineSDK.framework in Frameworks */,
 				B935230A1F3597CB00A66C17 /* AdSupport.framework in Frameworks */,
 				B93523091F35976F00A66C17 /* AssetsLibrary.framework in Frameworks */,
 				B93523081F35974700A66C17 /* CoreAudio.framework in Frameworks */,
@@ -221,6 +220,7 @@
 				B93522F61F3595EA00A66C17 /* WebKit.framework in Frameworks */,
 				B93522F51F3595E500A66C17 /* libsqlite3.tbd in Frameworks */,
 				B93522F31F3595DE00A66C17 /* libxml2.tbd in Frameworks */,
+				B9BCCCA21FFF517800C33214 /* FineSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +420,7 @@
 		B9BCCC1D1FFF172C00C33214 /* FineSDK */ = {
 			isa = PBXGroup;
 			children = (
-				B9BCCC8D1FFF195800C33214 /* FineSDK.framework */,
+				B9BCCCA01FFF515900C33214 /* FineSDK.framework */,
 				B9BCCC5C1FFF172C00C33214 /* PluginSDKResources.bundle */,
 			);
 			path = FineSDK;

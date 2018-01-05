@@ -1,5 +1,4 @@
-
-
+Pod::Spec.new do |s|
   s.name         = "FineSDK"
   s.version      = "3115"
   s.summary      = "Ad aggregation sdk"
@@ -7,18 +6,11 @@
   s.homepage     = "https://github.com/liuyaqiang/FineSDK.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "liuyaqiang" => "344257448@qq.com" }
-  s.source       = { :git => "https://github.com/liuyaqiang/FineSDK.git", :tag => "3115" }
-
-  #s.source_files  = "FineSDK"
+  s.source       = { :git => "https://github.com/liuyaqiang/FineSDK.git", :tag =>s.version }
   s.resource     = 'FineSDK/PluginSDKResources.bundle'
-  #s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
-
-  s.framework  = "FineSDK"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
+  s.platform = :ios,'8.0'
+  s.vendored_frameworks = 'FineSDK/FineSDK.framework'
+  s.source_files = 'FineSDK/FineSDK.framework/Headers/*.{h}'
+  s.public_header_files = 'FineSDK/FineSDK.framework/Headers/**/*.{h}'
+  s.frameworks   = 'UIKit','Foundation'
 end
