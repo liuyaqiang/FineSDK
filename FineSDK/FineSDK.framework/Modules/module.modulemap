@@ -1,0 +1,6 @@
+framework module FineSDK {
+  umbrella header "FineSDK.h"
+
+  export *
+  module * { export * }
+}
