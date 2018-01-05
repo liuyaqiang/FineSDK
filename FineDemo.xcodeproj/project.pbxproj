@@ -55,44 +55,8 @@
 		B93523101F35986F00A66C17 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2536530A1F355F5100A1BB69 /* AudioToolbox.framework */; };
 		B98DE3971F56A17A00B0CB70 /* FDNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98DE3961F56A17A00B0CB70 /* FDNavigationViewController.m */; };
 		B98DE39B1F56A24F00B0CB70 /* FDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98DE39A1F56A24F00B0CB70 /* FDBaseViewController.m */; };
-		B9BCCC5E1FFF172C00C33214 /* IASDKMRAID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC201FFF172C00C33214 /* IASDKMRAID.framework */; };
-		B9BCCC5F1FFF172C00C33214 /* IASDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9BCCC211FFF172C00C33214 /* IASDKResources.bundle */; };
-		B9BCCC601FFF172C00C33214 /* IASDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC221FFF172C00C33214 /* IASDKCore.framework */; };
-		B9BCCC611FFF172C00C33214 /* libGCDWebServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC321FFF172C00C33214 /* libGCDWebServer.a */; };
-		B9BCCC621FFF172C00C33214 /* AdjustPurchaseSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC351FFF172C00C33214 /* AdjustPurchaseSdk.framework */; };
-		B9BCCC631FFF172C00C33214 /* AdjustSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC361FFF172C00C33214 /* AdjustSdk.framework */; };
-		B9BCCC641FFF172C00C33214 /* AvocarrotCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC381FFF172C00C33214 /* AvocarrotCore.framework */; };
-		B9BCCC651FFF172C00C33214 /* Mraid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC391FFF172C00C33214 /* Mraid.framework */; };
-		B9BCCC661FFF172C00C33214 /* Vast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC3A1FFF172C00C33214 /* Vast.framework */; };
-		B9BCCC671FFF172C00C33214 /* AvocarrotNativeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC3B1FFF172C00C33214 /* AvocarrotNativeView.framework */; };
-		B9BCCC681FFF172C00C33214 /* AvocarrotInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC3C1FFF172C00C33214 /* AvocarrotInterstitial.framework */; };
-		B9BCCC691FFF172C00C33214 /* AvocarrotNativeAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC3D1FFF172C00C33214 /* AvocarrotNativeAssets.framework */; };
-		B9BCCC6A1FFF172C00C33214 /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC3F1FFF172C00C33214 /* Tapjoy.framework */; };
-		B9BCCC6B1FFF172C00C33214 /* TapjoyResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9BCCC411FFF172C00C33214 /* TapjoyResources.bundle */; };
-		B9BCCC6C1FFF172C00C33214 /* MVSDKReward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC431FFF172C00C33214 /* MVSDKReward.framework */; };
-		B9BCCC6D1FFF172C00C33214 /* MVSDKInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC441FFF172C00C33214 /* MVSDKInterstitial.framework */; };
-		B9BCCC6E1FFF172C00C33214 /* MVSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC451FFF172C00C33214 /* MVSDK.framework */; };
-		B9BCCC6F1FFF172C00C33214 /* DUModuleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC461FFF172C00C33214 /* DUModuleSDK.framework */; };
-		B9BCCC701FFF172C00C33214 /* libAppnextLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC481FFF172C00C33214 /* libAppnextLib.a */; };
-		B9BCCC711FFF172C00C33214 /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC491FFF172C00C33214 /* libAppnextSDKCore.a */; };
-		B9BCCC721FFF172C00C33214 /* libAppnextNativeAdsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC4A1FFF172C00C33214 /* libAppnextNativeAdsSDK.a */; };
-		B9BCCC731FFF172C00C33214 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC4B1FFF172C00C33214 /* UMMobClick.framework */; };
-		B9BCCC751FFF172C00C33214 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC4D1FFF172C00C33214 /* IronSource.framework */; };
-		B9BCCC761FFF172C00C33214 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC4E1FFF172C00C33214 /* UnityAds.framework */; };
-		B9BCCC771FFF172C00C33214 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC501FFF172C00C33214 /* FBSDKCoreKit.framework */; };
-		B9BCCC781FFF172C00C33214 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC511FFF172C00C33214 /* Bolts.framework */; };
-		B9BCCC791FFF172C00C33214 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC521FFF172C00C33214 /* FBAudienceNetwork.framework */; };
-		B9BCCC7A1FFF172C00C33214 /* zzAdImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9BCCC541FFF172C00C33214 /* zzAdImage.bundle */; };
-		B9BCCC7B1FFF172C00C33214 /* ZZAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC551FFF172C00C33214 /* ZZAdSDK.framework */; };
-		B9BCCC7C1FFF172C00C33214 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC561FFF172C00C33214 /* GoogleMobileAds.framework */; };
-		B9BCCC7D1FFF172C00C33214 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC571FFF172C00C33214 /* VungleSDK.framework */; };
-		B9BCCC7E1FFF172C00C33214 /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC581FFF172C00C33214 /* AppLovinSDK.framework */; };
-		B9BCCC7F1FFF172C00C33214 /* Centrixlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC591FFF172C00C33214 /* Centrixlink.framework */; };
-		B9BCCC801FFF172C00C33214 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC5A1FFF172C00C33214 /* AdColony.framework */; };
 		B9BCCC811FFF172C00C33214 /* PluginSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9BCCC5C1FFF172C00C33214 /* PluginSDKResources.bundle */; };
 		B9BCCC8E1FFF195800C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC8D1FFF195800C33214 /* FineSDK.framework */; };
-		B9BCCC8F1FFF19C700C33214 /* AdjustSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC361FFF172C00C33214 /* AdjustSdk.framework */; };
-		B9BCCC901FFF19C700C33214 /* AdjustSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC361FFF172C00C33214 /* AdjustSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B9BCCC911FFF19E500C33214 /* FineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC8D1FFF195800C33214 /* FineSDK.framework */; };
 		B9BCCC921FFF19E500C33214 /* FineSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9BCCC8D1FFF195800C33214 /* FineSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -121,7 +85,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B9BCCC901FFF19C700C33214 /* AdjustSdk.framework in Embed Frameworks */,
 				B9BCCC921FFF19E500C33214 /* FineSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -227,55 +190,6 @@
 		B98DE3961F56A17A00B0CB70 /* FDNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDNavigationViewController.m; sourceTree = "<group>"; };
 		B98DE3991F56A24F00B0CB70 /* FDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseViewController.h; sourceTree = "<group>"; };
 		B98DE39A1F56A24F00B0CB70 /* FDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseViewController.m; sourceTree = "<group>"; };
-		B9BCCC201FFF172C00C33214 /* IASDKMRAID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IASDKMRAID.framework; sourceTree = "<group>"; };
-		B9BCCC211FFF172C00C33214 /* IASDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IASDKResources.bundle; sourceTree = "<group>"; };
-		B9BCCC221FFF172C00C33214 /* IASDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IASDKCore.framework; sourceTree = "<group>"; };
-		B9BCCC241FFF172C00C33214 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
-		B9BCCC251FFF172C00C33214 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
-		B9BCCC261FFF172C00C33214 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
-		B9BCCC271FFF172C00C33214 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
-		B9BCCC281FFF172C00C33214 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
-		B9BCCC291FFF172C00C33214 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
-		B9BCCC2A1FFF172C00C33214 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
-		B9BCCC2B1FFF172C00C33214 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
-		B9BCCC2C1FFF172C00C33214 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
-		B9BCCC2D1FFF172C00C33214 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
-		B9BCCC2E1FFF172C00C33214 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
-		B9BCCC2F1FFF172C00C33214 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
-		B9BCCC301FFF172C00C33214 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
-		B9BCCC311FFF172C00C33214 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
-		B9BCCC321FFF172C00C33214 /* libGCDWebServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGCDWebServer.a; sourceTree = "<group>"; };
-		B9BCCC331FFF172C00C33214 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
-		B9BCCC351FFF172C00C33214 /* AdjustPurchaseSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdjustPurchaseSdk.framework; sourceTree = "<group>"; };
-		B9BCCC361FFF172C00C33214 /* AdjustSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdjustSdk.framework; sourceTree = "<group>"; };
-		B9BCCC381FFF172C00C33214 /* AvocarrotCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotCore.framework; sourceTree = "<group>"; };
-		B9BCCC391FFF172C00C33214 /* Mraid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mraid.framework; sourceTree = "<group>"; };
-		B9BCCC3A1FFF172C00C33214 /* Vast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vast.framework; sourceTree = "<group>"; };
-		B9BCCC3B1FFF172C00C33214 /* AvocarrotNativeView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotNativeView.framework; sourceTree = "<group>"; };
-		B9BCCC3C1FFF172C00C33214 /* AvocarrotInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotInterstitial.framework; sourceTree = "<group>"; };
-		B9BCCC3D1FFF172C00C33214 /* AvocarrotNativeAssets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotNativeAssets.framework; sourceTree = "<group>"; };
-		B9BCCC3F1FFF172C00C33214 /* Tapjoy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tapjoy.framework; sourceTree = "<group>"; };
-		B9BCCC411FFF172C00C33214 /* TapjoyResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapjoyResources.bundle; sourceTree = "<group>"; };
-		B9BCCC431FFF172C00C33214 /* MVSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MVSDKReward.framework; sourceTree = "<group>"; };
-		B9BCCC441FFF172C00C33214 /* MVSDKInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MVSDKInterstitial.framework; sourceTree = "<group>"; };
-		B9BCCC451FFF172C00C33214 /* MVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MVSDK.framework; sourceTree = "<group>"; };
-		B9BCCC461FFF172C00C33214 /* DUModuleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DUModuleSDK.framework; sourceTree = "<group>"; };
-		B9BCCC481FFF172C00C33214 /* libAppnextLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextLib.a; sourceTree = "<group>"; };
-		B9BCCC491FFF172C00C33214 /* libAppnextSDKCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextSDKCore.a; sourceTree = "<group>"; };
-		B9BCCC4A1FFF172C00C33214 /* libAppnextNativeAdsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextNativeAdsSDK.a; sourceTree = "<group>"; };
-		B9BCCC4B1FFF172C00C33214 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
-		B9BCCC4D1FFF172C00C33214 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
-		B9BCCC4E1FFF172C00C33214 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
-		B9BCCC501FFF172C00C33214 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		B9BCCC511FFF172C00C33214 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		B9BCCC521FFF172C00C33214 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		B9BCCC541FFF172C00C33214 /* zzAdImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = zzAdImage.bundle; sourceTree = "<group>"; };
-		B9BCCC551FFF172C00C33214 /* ZZAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZZAdSDK.framework; sourceTree = "<group>"; };
-		B9BCCC561FFF172C00C33214 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		B9BCCC571FFF172C00C33214 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
-		B9BCCC581FFF172C00C33214 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
-		B9BCCC591FFF172C00C33214 /* Centrixlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Centrixlink.framework; sourceTree = "<group>"; };
-		B9BCCC5A1FFF172C00C33214 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
 		B9BCCC5C1FFF172C00C33214 /* PluginSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PluginSDKResources.bundle; sourceTree = "<group>"; };
 		B9BCCC8D1FFF195800C33214 /* FineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FineSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -285,60 +199,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BCCC6E1FFF172C00C33214 /* MVSDK.framework in Frameworks */,
-				B9BCCC761FFF172C00C33214 /* UnityAds.framework in Frameworks */,
 				31822C231F504BD5002A7CC0 /* ImageIO.framework in Frameworks */,
 				31822BA01F50252B002A7CC0 /* PassKit.framework in Frameworks */,
 				31822B9E1F502507002A7CC0 /* MapKit.framework in Frameworks */,
-				B9BCCC721FFF172C00C33214 /* libAppnextNativeAdsSDK.a in Frameworks */,
-				B9BCCC6A1FFF172C00C33214 /* Tapjoy.framework in Frameworks */,
 				B93523101F35986F00A66C17 /* AudioToolbox.framework in Frameworks */,
 				B935230F1F35984C00A66C17 /* CoreTelephony.framework in Frameworks */,
-				B9BCCC641FFF172C00C33214 /* AvocarrotCore.framework in Frameworks */,
 				B93523041F35972700A66C17 /* CoreMedia.framework in Frameworks */,
 				B935230E1F35982400A66C17 /* MediaPlayer.framework in Frameworks */,
-				B9BCCC8F1FFF19C700C33214 /* AdjustSdk.framework in Frameworks */,
-				B9BCCC751FFF172C00C33214 /* IronSource.framework in Frameworks */,
-				B9BCCC651FFF172C00C33214 /* Mraid.framework in Frameworks */,
-				B9BCCC631FFF172C00C33214 /* AdjustSdk.framework in Frameworks */,
-				B9BCCC781FFF172C00C33214 /* Bolts.framework in Frameworks */,
 				B9BCCC911FFF19E500C33214 /* FineSDK.framework in Frameworks */,
 				B935230B1F3597FF00A66C17 /* MessageUI.framework in Frameworks */,
-				B9BCCC6C1FFF172C00C33214 /* MVSDKReward.framework in Frameworks */,
-				B9BCCC7E1FFF172C00C33214 /* AppLovinSDK.framework in Frameworks */,
-				B9BCCC7C1FFF172C00C33214 /* GoogleMobileAds.framework in Frameworks */,
-				B9BCCC6F1FFF172C00C33214 /* DUModuleSDK.framework in Frameworks */,
-				B9BCCC601FFF172C00C33214 /* IASDKCore.framework in Frameworks */,
-				B9BCCC801FFF172C00C33214 /* AdColony.framework in Frameworks */,
 				B9BCCC8E1FFF195800C33214 /* FineSDK.framework in Frameworks */,
 				B935230A1F3597CB00A66C17 /* AdSupport.framework in Frameworks */,
 				B93523091F35976F00A66C17 /* AssetsLibrary.framework in Frameworks */,
-				B9BCCC5E1FFF172C00C33214 /* IASDKMRAID.framework in Frameworks */,
 				B93523081F35974700A66C17 /* CoreAudio.framework in Frameworks */,
-				B9BCCC661FFF172C00C33214 /* Vast.framework in Frameworks */,
-				B9BCCC771FFF172C00C33214 /* FBSDKCoreKit.framework in Frameworks */,
-				B9BCCC731FFF172C00C33214 /* UMMobClick.framework in Frameworks */,
-				B9BCCC611FFF172C00C33214 /* libGCDWebServer.a in Frameworks */,
 				B93523061F35974700A66C17 /* CoreGraphics.framework in Frameworks */,
 				B93523051F35972700A66C17 /* CoreMotion.framework in Frameworks */,
-				B9BCCC701FFF172C00C33214 /* libAppnextLib.a in Frameworks */,
 				B93523031F35971C00A66C17 /* iAd.framework in Frameworks */,
 				B93523021F35970900A66C17 /* GLKit.framework in Frameworks */,
 				B93523001F3596CD00A66C17 /* AVFoundation.framework in Frameworks */,
-				B9BCCC7D1FFF172C00C33214 /* VungleSDK.framework in Frameworks */,
-				B9BCCC711FFF172C00C33214 /* libAppnextSDKCore.a in Frameworks */,
-				B9BCCC671FFF172C00C33214 /* AvocarrotNativeView.framework in Frameworks */,
 				B93522F71F3595F200A66C17 /* libz.tbd in Frameworks */,
-				B9BCCC7B1FFF172C00C33214 /* ZZAdSDK.framework in Frameworks */,
 				B93522F61F3595EA00A66C17 /* WebKit.framework in Frameworks */,
-				B9BCCC681FFF172C00C33214 /* AvocarrotInterstitial.framework in Frameworks */,
 				B93522F51F3595E500A66C17 /* libsqlite3.tbd in Frameworks */,
-				B9BCCC791FFF172C00C33214 /* FBAudienceNetwork.framework in Frameworks */,
 				B93522F31F3595DE00A66C17 /* libxml2.tbd in Frameworks */,
-				B9BCCC7F1FFF172C00C33214 /* Centrixlink.framework in Frameworks */,
-				B9BCCC691FFF172C00C33214 /* AvocarrotNativeAssets.framework in Frameworks */,
-				B9BCCC6D1FFF172C00C33214 /* MVSDKInterstitial.framework in Frameworks */,
-				B9BCCC621FFF172C00C33214 /* AdjustPurchaseSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,154 +421,9 @@
 			isa = PBXGroup;
 			children = (
 				B9BCCC8D1FFF195800C33214 /* FineSDK.framework */,
-				B9BCCC1E1FFF172C00C33214 /* ads_sdk */,
 				B9BCCC5C1FFF172C00C33214 /* PluginSDKResources.bundle */,
 			);
 			path = FineSDK;
-			sourceTree = "<group>";
-		};
-		B9BCCC1E1FFF172C00C33214 /* ads_sdk */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC1F1FFF172C00C33214 /* Inneractive */,
-				B9BCCC231FFF172C00C33214 /* GCDWebServer */,
-				B9BCCC341FFF172C00C33214 /* Adjust */,
-				B9BCCC371FFF172C00C33214 /* Avocarrot */,
-				B9BCCC3E1FFF172C00C33214 /* Tapjoy.embeddedframework */,
-				B9BCCC421FFF172C00C33214 /* Mobvista */,
-				B9BCCC461FFF172C00C33214 /* DUModuleSDK.framework */,
-				B9BCCC471FFF172C00C33214 /* Appnext */,
-				B9BCCC4B1FFF172C00C33214 /* UMMobClick.framework */,
-				B9BCCC4D1FFF172C00C33214 /* IronSource.framework */,
-				B9BCCC4E1FFF172C00C33214 /* UnityAds.framework */,
-				B9BCCC4F1FFF172C00C33214 /* Facebook */,
-				B9BCCC531FFF172C00C33214 /* BatMobi */,
-				B9BCCC561FFF172C00C33214 /* GoogleMobileAds.framework */,
-				B9BCCC571FFF172C00C33214 /* VungleSDK.framework */,
-				B9BCCC581FFF172C00C33214 /* AppLovinSDK.framework */,
-				B9BCCC591FFF172C00C33214 /* Centrixlink.framework */,
-				B9BCCC5A1FFF172C00C33214 /* AdColony.framework */,
-				B9BCCC5B1FFF172C00C33214 /* AvidlyAds */,
-			);
-			path = ads_sdk;
-			sourceTree = "<group>";
-		};
-		B9BCCC1F1FFF172C00C33214 /* Inneractive */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC201FFF172C00C33214 /* IASDKMRAID.framework */,
-				B9BCCC211FFF172C00C33214 /* IASDKResources.bundle */,
-				B9BCCC221FFF172C00C33214 /* IASDKCore.framework */,
-			);
-			path = Inneractive;
-			sourceTree = "<group>";
-		};
-		B9BCCC231FFF172C00C33214 /* GCDWebServer */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC241FFF172C00C33214 /* GCDWebServerFileResponse.h */,
-				B9BCCC251FFF172C00C33214 /* GCDWebServerFunctions.h */,
-				B9BCCC261FFF172C00C33214 /* GCDWebServerPrivate.h */,
-				B9BCCC271FFF172C00C33214 /* GCDWebServerDataRequest.h */,
-				B9BCCC281FFF172C00C33214 /* GCDWebServerMultiPartFormRequest.h */,
-				B9BCCC291FFF172C00C33214 /* GCDWebServerStreamedResponse.h */,
-				B9BCCC2A1FFF172C00C33214 /* GCDWebServerFileRequest.h */,
-				B9BCCC2B1FFF172C00C33214 /* GCDWebServerConnection.h */,
-				B9BCCC2C1FFF172C00C33214 /* GCDWebServerDataResponse.h */,
-				B9BCCC2D1FFF172C00C33214 /* GCDWebServer.h */,
-				B9BCCC2E1FFF172C00C33214 /* GCDWebServerHTTPStatusCodes.h */,
-				B9BCCC2F1FFF172C00C33214 /* GCDWebServerResponse.h */,
-				B9BCCC301FFF172C00C33214 /* GCDWebServerErrorResponse.h */,
-				B9BCCC311FFF172C00C33214 /* GCDWebServerURLEncodedFormRequest.h */,
-				B9BCCC321FFF172C00C33214 /* libGCDWebServer.a */,
-				B9BCCC331FFF172C00C33214 /* GCDWebServerRequest.h */,
-			);
-			path = GCDWebServer;
-			sourceTree = "<group>";
-		};
-		B9BCCC341FFF172C00C33214 /* Adjust */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC351FFF172C00C33214 /* AdjustPurchaseSdk.framework */,
-				B9BCCC361FFF172C00C33214 /* AdjustSdk.framework */,
-			);
-			path = Adjust;
-			sourceTree = "<group>";
-		};
-		B9BCCC371FFF172C00C33214 /* Avocarrot */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC381FFF172C00C33214 /* AvocarrotCore.framework */,
-				B9BCCC391FFF172C00C33214 /* Mraid.framework */,
-				B9BCCC3A1FFF172C00C33214 /* Vast.framework */,
-				B9BCCC3B1FFF172C00C33214 /* AvocarrotNativeView.framework */,
-				B9BCCC3C1FFF172C00C33214 /* AvocarrotInterstitial.framework */,
-				B9BCCC3D1FFF172C00C33214 /* AvocarrotNativeAssets.framework */,
-			);
-			path = Avocarrot;
-			sourceTree = "<group>";
-		};
-		B9BCCC3E1FFF172C00C33214 /* Tapjoy.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC3F1FFF172C00C33214 /* Tapjoy.framework */,
-				B9BCCC401FFF172C00C33214 /* Resources */,
-			);
-			path = Tapjoy.embeddedframework;
-			sourceTree = "<group>";
-		};
-		B9BCCC401FFF172C00C33214 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC411FFF172C00C33214 /* TapjoyResources.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		B9BCCC421FFF172C00C33214 /* Mobvista */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC431FFF172C00C33214 /* MVSDKReward.framework */,
-				B9BCCC441FFF172C00C33214 /* MVSDKInterstitial.framework */,
-				B9BCCC451FFF172C00C33214 /* MVSDK.framework */,
-			);
-			path = Mobvista;
-			sourceTree = "<group>";
-		};
-		B9BCCC471FFF172C00C33214 /* Appnext */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC481FFF172C00C33214 /* libAppnextLib.a */,
-				B9BCCC491FFF172C00C33214 /* libAppnextSDKCore.a */,
-				B9BCCC4A1FFF172C00C33214 /* libAppnextNativeAdsSDK.a */,
-			);
-			path = Appnext;
-			sourceTree = "<group>";
-		};
-		B9BCCC4F1FFF172C00C33214 /* Facebook */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC501FFF172C00C33214 /* FBSDKCoreKit.framework */,
-				B9BCCC511FFF172C00C33214 /* Bolts.framework */,
-				B9BCCC521FFF172C00C33214 /* FBAudienceNetwork.framework */,
-			);
-			path = Facebook;
-			sourceTree = "<group>";
-		};
-		B9BCCC531FFF172C00C33214 /* BatMobi */ = {
-			isa = PBXGroup;
-			children = (
-				B9BCCC541FFF172C00C33214 /* zzAdImage.bundle */,
-				B9BCCC551FFF172C00C33214 /* ZZAdSDK.framework */,
-			);
-			path = BatMobi;
-			sourceTree = "<group>";
-		};
-		B9BCCC5B1FFF172C00C33214 /* AvidlyAds */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AvidlyAds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -800,15 +537,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BCCC5F1FFF172C00C33214 /* IASDKResources.bundle in Resources */,
 				B9219D4C1F1DA2E800B08AFA /* LaunchScreen.storyboard in Resources */,
 				B9351EBB1F345DC900A66C17 /* YFSettingViewController.xib in Resources */,
 				250A67591F5901B6007F561B /* 1238084611_adjust in Resources */,
-				B9BCCC7A1FFF172C00C33214 /* zzAdImage.bundle in Resources */,
 				B9BCCC811FFF172C00C33214 /* PluginSDKResources.bundle in Resources */,
 				B9219D491F1DA2E800B08AFA /* Assets.xcassets in Resources */,
 				B9219D471F1DA2E800B08AFA /* Main.storyboard in Resources */,
-				B9BCCC6B1FFF172C00C33214 /* TapjoyResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
