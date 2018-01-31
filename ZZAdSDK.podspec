@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   #s.source_files = 'BatMobi/ZZAdSDK.framework/Headers/*.{h}' 
   #s.public_header_files = 'BatMobi/ZZAdSDK.framework/Headers/**/*.{h}'
   s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation',   'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork',  'AdSupport', 'ImageIO'
-  s.libraries = 'z', 'stdc++', 'sqlite3'
+ s.libraries = 'z', 'stdc++', 'sqlite3'
 
  end

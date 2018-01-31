@@ -18,8 +18,8 @@ s.platform     = :ios, '7.0'
 s.requires_arc = true
 
 s.source           = { :git => "https://github.com/liuyaqiang/FineSDK.git", :tag => "#{s.version}" }
-s.resources = "Resources/*.bundle"
-s.vendored_frameworks = 'Centrixlink.embeddedframework/Centrixlink.framework'
+#s.resources = "Resources/*.bundle"
+s.vendored_frameworks = 'Centrixlink/Centrixlink.framework'
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO'
 s.libraries = 'z', 'stdc++', 'sqlite3'
