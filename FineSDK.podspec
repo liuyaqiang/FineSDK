@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/liuyaqiang/FineSDK.git", :tag =>s.version }
   s.resource     = 'FineSDK/PluginSDKResources.bundle'
   s.platform = :ios,'8.0'
- # s.vendored_frameworks = 'FineSDK/FineSDK.framework'
+ s.vendored_frameworks = 'FineSDK/FineSDK.framework'
   s.source_files = 'FineSDK/FineSDK.framework/Headers/*.{h}' 
   s.public_header_files = 'FineSDK/FineSDK.framework/Headers/**/*.{h}'
   s.frameworks   = 'UIKit','Foundation'
